@@ -66,7 +66,7 @@ int print_octal(va_list types, char buffer[],
 	while (num > 0)
 	{
 		buffer[i--] = (num % 8) + '0';
-		num /= 8;
+		num = num / 8;
 	}
 
 	if (flags & F_HASH && init_num != 0)
