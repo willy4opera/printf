@@ -27,7 +27,7 @@ int print_unsigned(va_list types, char buffer[],
 	while (num > 0)
 	{
 		buffer[i--] = (num % 10) + '0';
-		num /= 10;
+		num = num / 10;
 	}
 
 	i++;
