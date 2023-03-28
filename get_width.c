@@ -3,7 +3,7 @@
 /**
  * get_widths  - This Function  Calculates the width for printing
  * @format: The Formatted string in which to print the arguments.
- * @i: List of arguments to be printed.
+ * @i: List of arguments to be printed on schreen.
  * @list: list of arguments.
  *
  * Return: width.
